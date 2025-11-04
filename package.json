@@ -1,0 +1,15 @@
+{
+  "name": "prebuild",
+  "version": "1.0.0",
+  "description": "This project is a task based mechanism which enables you to run tasks, providing custom functionality in prebuild stage. It is designed as a submodule to use in various projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mouseless/prebuild.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/mouseless/prebuild#readme",
+  "dependencies": {
+    "yaml": "^2.8.1"
+  }
+}
