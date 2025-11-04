@@ -16,8 +16,9 @@ asyncrounusly runs the tasks with given configurations.
 
 ## Setup
 
-We suggest you use to add this as a submodule to your repository and follow
-folder structure.
+### As a Submodule
+
+To add this as a submodule to your repository and follow folder structure.
 
 ```
 prebuild/
@@ -36,6 +37,16 @@ prebuild/
 > ```json
 > "yaml": "^2.2.1"
 > ```
+
+### As an Npm Package
+
+To add this as an npm package to your repository and include below in your package.json
+
+```
+  "devDependencies": {
+    "@mouseless/prebuild": "github:mouseless/prebuild"
+  }
+```
 
 ## Sample Configuration
 

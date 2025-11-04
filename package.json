@@ -8,5 +8,8 @@
     "url": "git+https://github.com/mouseless/prebuild.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/mouseless/prebuild#readme"
+  "homepage": "https://github.com/mouseless/prebuild#readme",
+  "dependencies": {
+    "yaml": "^2.8.1"
+  }
 }
