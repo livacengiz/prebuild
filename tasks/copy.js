@@ -16,7 +16,7 @@ import files from "./utils/files.js";
  * @returns {Promise}
  */
 export default async function({ extension, source, target }) {
-  log.info(`Copying ${extension} files from '${source}' to '${target}'`);
+  log.info(`Copying ${extension || "all"} files from '${source}' to '${target}'`);
 
   await files(source, extension, async (dir, file) => {
     const sourceFile = join(source, dir, file);
